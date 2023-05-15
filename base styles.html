@@ -3,8 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <script src="https://kit.fontawesome.com/bd7115edaf.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+<div>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#"> <i class="fa-solid fa-dungeon"></i> Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-user-group"></i> Clan</a></li>
+            <li><a href="#"><i class="fa-solid fa-user-shield"></i> Stats</a></li>
+            <li><a href="#"><i class="fa-solid fa-scroll"></i> achievements</a></li>
+            <li><a href="#"><i class="fa-solid fa-person-running"></i> Dungeon run</a></li>
+        </ul>
+    </nav>
+    <div class="cavern-nav">
 
+    </div>
+</div>
+
+<h1 >Frontpage</h1>
+<div>
+    <h2>STATS</h2>
+    <ul>
+        <li><i class="fa-solid fa-shield-halved"></i> defence</li>
+        <li><i class="fa-solid fa-crosshairs"></i></i> attack</li>
+        <li><i class="fa-solid fa-person-running"></i> speed</li>
+        <li> <i class="fa-solid fa-bolt"></i> energy</li>
+        <li><i class="fa-solid fa-hand-fist"></i> strenght</li>
+        <li><i class="fa-solid fa-heart"></i> health</li>
+    </ul>
+</div>
+
+<div class="container">
+    <h1>Hardloopsessie</h1>
+    <div class="session-info">
+        <p>Afstand: <span id="distance">0</span> km</p>
+        <p>Tijd: <span id="time">00:00:00</span></p>
+        <p><i class="fa-solid fa-dragon"></i><i class="fa-solid fa-hat-wizard"></i><i class="fa-brands fa-grunt"></i><i class="fa-brands fa-wolf-pack-battalion"></i><i class="fa-solid fa-paw"></i><i class="fa-solid fa-skull"></i><i class="fa-solid fa-ring"></i><i class="fa-solid fa-fire-flame-curved"></i></p>
+    </div>
+    <button id="start-btn">Start sessie</button>
+    <button id="stop-btn">Stop sessie</button>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

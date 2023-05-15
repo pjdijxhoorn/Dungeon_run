@@ -1,0 +1,91 @@
+/*----------fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=MedievalSharp&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lancelot, sans-serif;
+}
+h1{
+    font-family: 'MedievalSharp', cursive;
+}
+
+/*----------Colours*/
+
+/*----------basic styling*/
+
+/*----------navbar*/
+
+/*----------navbar*/
+
+.nav-bar{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+
+
+}
+.cavern-nav {
+    background-color: #333;
+    display: flex;
+    height: 500px;
+
+
+}
+
+.nav-bar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar li {
+    margin: 0 20px;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-bar a:hover {
+    background-color: #999;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.session-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+/*----------icons*/
+
+/* -------------------------------- Media Queries */
+
+/* footer */
