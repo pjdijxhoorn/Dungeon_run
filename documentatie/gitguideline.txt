@@ -1,0 +1,48 @@
+Git Commit Guide Lines
+
+
+
+Waarom zijn goede commits belangrijk?
+Het documenteren van wijzigingen is een kritieke stap bij het werken aan projecten, of je nu individueel of in een team werkt.
+Door de veranderingen die zijn aangebracht en de redenen daarvoor duidelijk te vermelden,
+ voorkom je dat andere teamleden of je toekomstige zelf in verwarring raken over wat er is gewijzigd en waarom.
+ Hierdoor wordt het gemakkelijker om code te onderhouden en te begrijpen, en wordt de samenwerking binnen het team gestroomlijnd.
+Het documenteren van wijzigingen kan daarbij helpen om communicatieproblemen tussen teamleden te voorkomen en ook om het herstelproces te versnellen als er iets misgaat. Door alle wijzigingen en hun redenen te documenteren, kan het team snel achterhalen wat er mis is gegaan en hoe het probleem kan worden opgelost. Om deze reden hebben we een aantal richtlijnen opgesteld binnen NOVI.
+
+Richtlijnen van NOVI
+
+Richtlijnen kunnen per bedrijf, instelling en zelfs per team nog wel eens van elkaar verschillen en het is belangrijk
+om je aan te passen naar het team waarin je in zit. Hier binnen Novi zouden we in ieder geval deze richtlijnen willen
+meegeven voor het maken van goede commits.
+
+* Gebruik Tegenwoordige tijd in je commits.
+* Bericht heeft een  max van 50 tekens
+* Wees direct in je taalgebruik geen en gebruik geen vulwoorden zoals "soort van", "misschien" etc. In plaats daarvan gebruik steekwoorden zoals bijvoorbeeld "Verbeteren responsiveness homepagina" of "Oplossen transactioenele bug in betaalsysteem"
+* Wees precies en duidelijk in je commits. Je moet in 1 oogopslag kunnen zien waar het overgaat.
+* Een Goede volgorde voor een commit om toe te passen is: wat is er aangepast? waar en hoe? Waarom was de change nodig?
+* Teveel verschillende info in 1 commit betekend waarschijnlijk dat je al meerdere commits had moeten doen!
+* Gebruik Geen punt aan het eind van de commit
+* Sommige mensen vinden het fijn om aan het begin van hun commit  een type toe te voegen Zoals Hieronder Dit is niet verplicht maar kan extra duidelijkheid verschaffen
+
+Feat – nieuwe code /functionaliteit toevoegen.
+Fix- het fixen van bugs
+Test – toevoegen of verbeteren van tests
+Docs - voor het toevoegen of aanpassen van documentatie
+Style – dingen die de functionele code niet aanpassen maar over de code opmaak zoals lege regels verwijderen en te lange regels op nieuwe lijn neerzetten
+Perf -  het verbeteren van bijvoorbeeld draaisnelheid van je code
+Revert – ga terug naar een oude commit
+
+Voorbeelden van slechte commits:
+
+"Aanpassingen gemaakt" (te algemeen, niet duidelijk wat er precies is aangepast en waarom)
+" " (geen bericht)
+"Dit zou moeten werken" (gebruik van onzekere taal, niet duidelijk of het echt werkt of niet)
+"Bug opgelost" (niet specifiek welke bug en hoe het is opgelost)
+"fixing bugs and adding new features"(te veel informatie in één commit, het is beter om dit op te splitsen in meerdere commits.)
+
+Voorbeelden van goede commits:
+
+"Oplossen weergaveprobleem in productlijst" (duidelijke beschrijving van wat er is veranderd en waarom)
+"Verbeteren laadsnelheid afbeeldingen" (precieze omschrijving van wat er is verbeterd en waarom)
+"Toevoegen documentatie over installatieproces" (duidelijke beschrijving van wat er is toegevoegd en waarom)
+"<Style>Removing unnecessary white spaces from code" (specifiek over wat er is veranderd en welk type commit het is (Style), zonder onnodige woorden.)
