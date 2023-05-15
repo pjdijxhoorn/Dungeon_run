@@ -1,0 +1,64 @@
+DUNGEON_RUN
+
+Het doel van de applicatie:
+Overgewicht is een groot probleem binnen Nederland. De helft van de Nederlanders boven de 18 had in 2021 overgewicht. 36% had matig overgewicht en 14% ernstig overgewicht! (CBS) Overgewicht. Mensen met overgewicht hebben onder andere meer risico op gezondheidsproblemen zoals diabetes, hoge bloeddruk, hart en vaat ziekte, en bepaalde vormen van kanker.
+Sporten is een goede manier om gezond te blijven en overgewicht te bestrijden. Voor veel mensen is  dit alleen een grote uitdaging.
+Ik merk dat ik vaak moeite heb om mijzelf te motiveren om te gaan hardlopen. Ik ben zelf heel competitef ingesteld en met hardlopen train je vaak in je eentje waardoor het moeilijk is motivatie vast te houden.
+
+Sociale druk  om te zorgen dat mensen steun maar ook een soort van verplichten voelen om te gaan hardlopen.
+
+Fun om te zorgen dat ze beloond worden
+
+Gewoonte lus.
+
+Entiteiten:
+1.	Training_Result
+2.	User(avatar/profielfoto, lootbag, gearslots, stats)
+3.	Clan
+4.	Messages
+5.	Security
+6.	Monsters?
+7.	gear
+
+Userrollen:
+•	Admin
+•	User
+•	clanleader
+
+Verhaal lijn
+Jij bent een avonturier en probeert de beste van het land te worden samen met jouw clan/part/team.
+elke keer dat je gaat hardlopen is een dungeon run. Hier kom je monsters tegen elke dungeon run kan  je gear krijgen. Hoe meer dungeon runs je doet hoe hogere dungeons worden / sterker worden de monsters.
+Gear kan je aandoen om te zorgen dat je betere stats krijgt en sterker monsters aan kan
+Je kan samen met je clan ook raids doen om boss monsters  aan te vallen als je samen met de groep loopt.  (zelfde week gezamelijke score) raid. Deze droppen vaak nog betere gear.
+In de wereld zijn oppeens allemaal dungeons verschenen waar monsters uit komen. Het is jouw taak samen met je team om de wereld veilig te houden en de monsters te verlsaan voordat zij bij de mensen kunnen komen
+
+Ideeen:
+•	Competitie tussen users maar ook user groepen
+•	Virtuele race per week iedereen kan zelf bepalen wanneer hij deze loopt.
+•	Daag je vrienden uit voor een race/raid
+•	Zelf een training systeem erin zetten
+•	Kracht trainingen voor verbeterde stats
+•	Verschillende rollen/ jobs voor charachters
+•	Dungeons kosten energie maar leveren gear en levels op. Alleen als je voldoende energie heb kan je een dungeon verslaan. Monsters iin dungeons kosten ook energie. Monsters dropen gear. Alle energie die je overhoudt na een dungeon wordt xp. Energie krijg je door grotere afstand sneller te lopen met lagere hartslag. Je kan de volgende level dungeon pas doen als je het vorige level hebt gehaald . wanneer je een level hebt uitgespeeld dan wordt er een waarde van dat level op true gezet. Monsters aanvallen kost energie. Des te beter je kgear is des te minder aanvallen je nodig hebt om het monster te verslaan. Des te minder energie je dus nodig hebt. Monster zijn random.
+•	Hoe hoger het level van het monster des de hoger wordt de loot table van dat monster.
+•	Kracht training kan extra attackdamage opleveren.
+•	Muziek die aangeeft dat je bij een vijand komt en harder moet lopen
+•	Health bar van monsters gaat aan het einde van een dungeon run dynamisch naar beneden.
+•	Meerdere monsters is meerder bars.
+•	Met bepaalde achievements kan je titels krijgen die je kan equipen bv 1k rookie, 42k iron man, flash voor snelheid.
+•	Aan het einde van een dungeon kan je een key vinden voor een volgende dungeon
+
+Vragen die ik nog moet beantwoorden
+•	Hoe verdienen spelers punten? Zonder dat het demotiverend wordt omdat sommige al een betere conditie heeft!
+•	Opdrachtkaarten bedenken?
+
+Overige belangrijke dingen
+•	Running index wordt berekend op basis van gemiddelde van laatste 5 trainingen.
+•	Elke x periode is er een verversing van het leaderbord!
+•	Score frequentie voor trainingen in periode + verbetering in running index + bonus punten voor het winnen van de race(extra optie).
+•
+
+Functionele eisen
+•	Spelers krijgen punten voor dungeon runs
+•	De berekening van punten is hoogte van dungeon* running index +gearstats()
+•	Des te moeilijker de dungeon is des te beter de gear is die je er kan vinden(zitr nog steeds wel een randomizer op)
