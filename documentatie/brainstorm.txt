@@ -47,6 +47,11 @@ Ideeen:
 •	Meerdere monsters is meerder bars.
 •	Met bepaalde achievements kan je titels krijgen die je kan equipen bv 1k rookie, 42k iron man, flash voor snelheid.
 •	Aan het einde van een dungeon kan je een key vinden voor een volgende dungeon
+* dungeons afhankelijk van weer 
+* speciale events kerst etc
+* Real-time groepsgevechten: Boss battles vinden plaats in real-time, waarbij elke deelnemer binnen de clan een specifieke rol kan spelen om het monster te verslaan, zoals verdediging, aanval of ondersteuning.
+*Spelers worden beloond voor effectieve samenwerking en het vervullen van specifieke rollen tijdens groepsgevechten met extra loot of unieke gear.
+*Community-gebaseerde creativiteit: Spelers kunnen zelf dungeons ontwerpen en delen met de community, waardoor ze andere spelers uitdagen en betrokkenheid stimuleren.
 
 Vragen die ik nog moet beantwoorden
 •	Hoe verdienen spelers punten? Zonder dat het demotiverend wordt omdat sommige al een betere conditie heeft!
